@@ -1,8 +1,6 @@
-import React from 'react';
-import Calculator from './scenes/setup/Calculator';
+import React from "react";
+import FormInput from "./components/FormInput";
 
-const App = () => (
-        <Calculator />
-);
+const App = () => <FormInput />;
 
 export default App;
